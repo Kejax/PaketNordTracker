@@ -17,3 +17,5 @@ Route::post('/track/{id}/update', [TrackingController::class, 'update'])
 
 Route::post('/track/{id}/deliver', [TrackingController::class, 'deliver'])
     ->name('update');
+
+Route::match(['get', ''], 'login', 'login');

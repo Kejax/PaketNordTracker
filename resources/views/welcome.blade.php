@@ -49,7 +49,7 @@
                             id="trackingInput"
                             type="text"
                             placeholder="Sendungsnummer eingeben"
-                            class="flex-grow rounded-lg border border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
+                            class="flex-grow rounded-lg border bg-gray-700 border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
                         />
                         <button onclick="track()" class="bg-[#08a2d7] text-white rounded-lg px-6 py-3 font-medium hover:opacity-70 transition cursor-pointer">
                         Tracken
@@ -122,13 +122,13 @@
                                     name="title"
                                     type="text"
                                     placeholder="Titel"
-                                    class="mb-5 flex-grow rounded-lg border border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
+                                    class="mb-5 flex-grow rounded-lg border bg-gray-700 border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
                                 />
                                 <input
                                     name="text"
                                     type="text"
                                     placeholder="Text"
-                                    class="mb-5 flex-grow rounded-lg border border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
+                                    class="mb-5 flex-grow rounded-lg border bg-gray-700 border-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#08a2d7]"
                                 />
                                 <button onclick="track()" class="bg-[#08a2d7] text-white rounded-lg px-6 py-3 font-medium hover:opacity-70 transition cursor-pointer">
                                     Status ändern
@@ -172,7 +172,7 @@
         <!-- Footer -->
         <footer class="bg-white dark:bg-gray-800 border-t dark:border-t-[#08a2d7]">
             <div class="max-w-5xl mx-auto px-6 py-4 text-sm text-gray-500 dark:text-white flex justify-between">
-                <span>© 2025 PaketNord</span>
+                <span>© 2025 Kejax</span>
                 <span>PaketNord ist keine echte Firma und fiktiv im Stil von PostNord</span>
             </div>
         </footer>

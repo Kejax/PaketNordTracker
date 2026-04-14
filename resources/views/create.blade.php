@@ -104,7 +104,7 @@
         <!-- Footer -->
         <footer class="bg-white dark:bg-gray-800 border-t dark:border-t-[#08a2d7]">
             <div class="max-w-5xl mx-auto px-6 py-4 text-sm text-gray-500 dark:text-white flex justify-between">
-                <span>© 2025 PaketNord</span>
+                <span>© 2025 Kejax</span>
                 <span>PaketNord ist keine echte Firma und fiktiv im Stil von PostNord</span>
             </div>
         </footer>
