@@ -15,7 +15,7 @@ class TrackingController extends Controller
             $query->orderBy('created_at', 'asc');
         }])->first();
 
-        return view('welcome', [
+        return view('index', [
             'shipment' => $s,
             'staff' => $request->has('staff')
         ]);
